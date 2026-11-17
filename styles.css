@@ -1,0 +1,42 @@
+
+/* Main application layout */
+
+.block-container {
+    max-width: 900px;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+/* Main heading */
+
+h1 {
+    font-weight: 750;
+    letter-spacing: -0.5px;
+}
+
+/* Chat message containers */
+
+[data-testid="stChatMessage"] {
+    border-radius: 14px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Sidebar styling */
+
+section[data-testid="stSidebar"] {
+    border-right: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+/* Button styling */
+
+.stButton button {
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+/* Chat input */
+
+[data-testid="stChatInput"] {
+    border-radius: 12px;
+}
